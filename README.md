@@ -17,3 +17,14 @@ https://github.com/topojson/topojson/wiki/Specification.ja
 
 arcsがデータの本体。
 objectsにデータの内容が入っているのでこれを読み取る。
+
+データの切り取り
+----
+
+objectsの内容に従ってarcsから必要な部分だけを取り出す。
+
+データの表示、ダウンロード
+----
+
+データの表示はD3.jsにて。topojson=>geojsonの変換が必要。
+jsonファイルを作成してダウンロード。
